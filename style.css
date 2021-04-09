@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ body {
+    background-color: #2b6cad;
+    min-height: 1600px;
+ }
+
+ div{
+    display: block;
+ }
+
+.first-title{ 
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: #000;
+   font-size: 27px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+}
+
+.first-title, .border{  
+   font-family: "qontra", Regular, sans-serif;
+   background-color: #000;
+   color: #fff;
+   padding: 20px;
+}
+
+ .page-container {
+    color: #fff;
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    background-color: #2b6cad;
+ }
+
+
+ .hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+ .page-container p{
+    text-align: left;   
+ }
+ 
+ .page-container h2, p{
+     font-family: "qontra", Regular, sans-serif;
+     font-weight: bold;
+     
+ } 
+
+ h2{
+    text-decoration: underline;
+    font-size: 35px;
+ }
+
+ p{
+    font-size: 23px;
+ }
+
+ .img1{
+    background-image: url(/img/img1.jpg);
+    background-attachment: fixed;
+ }
+ .img2{
+    background-image: url(/img/img2.png);
+    background-attachment: fixed;
+ }
+ .img3{
+    background-image: url(/img/img3.jpg);
+    background-attachment: fixed;
+ }
+ .img4{
+    background-image: url(/img/img4.jpg);
+    background-attachment: fixed;
+ }
+ .img5{
+    background-image: url(/img/img5.jpg);
+    background-attachment: fixed;
+ }
+
+
+.botao {
+   border: 2px solid #0c0b0b;
+   border-radius: 5px;
+   background-color: #fff;
+   padding: 10px 20px;
+   font-size: 20px;
+   cursor: pointer;
+   margin: 11px;
+   transition: 0.5s;
+}
+
+
+.botao:hover {
+   border: 2px solid #fff;
+   color: #fff;
+   background: rgb(0, 0, 0);
+   box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+   text-shadow: none;
+   cursor: pointer;
+   
+}
+.page-container:hover{
+   cursor: pointer;
+   
+}
+
+ .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+  }
